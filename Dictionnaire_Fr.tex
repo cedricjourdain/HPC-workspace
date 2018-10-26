@@ -214,7 +214,7 @@ SpeedUpObs = $\frac{Temps de l'exécution en série}{temps de l'exécution en pa
 
 \entry{Inlining}{n.m}{Optimisation d'un compilateur qui remplace un appel de fonction par le code de cette fonction. Souvent, le compilateur est libre de faire l'inlining lui-même.}
 
-\entry{Instruction-level parallelism}{n.m}{C'est une mesure du nombre d'instructions dans un programme informatique pouvant être exécutées simultanément.}
+\entry{Instruction-level parallelisme (ILP)}{n.m}{C'est une mesure du nombre d'instructions dans un programme informatique pouvant être exécutées simultanément.}
 
 \entry{Interblocage}{n.m}{Un interblocage (ou étreinte fatale, deadlock) est un phénomène qui peut survenir en programmation concurrente. L'interblocage se produit lorsque deux processus concurrent s'attendent mutuellement. Les processus bloqués das cet état le sont définitivement.}
 
@@ -353,6 +353,9 @@ Les nœuds sont généralement configurés en 4 types, selon leur fonction :
   \item Nous pouvons utiliser un profileur afin de détecter les points chauds dans le code. Lorsque nous connaissons les zones de points chauds, nous pouvons appliquer le modèle roofline.
 \end{itemize}}
 
+\entry{Out-of-order execution}{n.m}{Ou encore execution dynamique; est un paradigme utilisé dasn la plus part des CPU haute performance afin d'utiliser les cycles d'instruction qui aurait été non-utilisé. Dans ce paradigme un processeur exécute les instructions dans leur ordres gouverné par la disponibilité des données d'entré et des unités d'exécution, plutôt que leur ordre orginal dans le programme.}
+
+
 \entry{Overhead}{n.m}{\begin{enumerate}
   \item Temps perdu dans des servitudes annexes (lancement d'un processus, transcodage...)
 \begin{itemize}
@@ -375,7 +378,13 @@ Les nœuds sont généralement configurés en 4 types, selon leur fonction :
 
 \entry{Parallèlement embarrassant}{n.m}{Résoudre simultanément plusieurs tâches similaires mais indépendantes; peu ou pas pas besoin de coordination entre les tâches.}
 
+\entry{Parallelisme dynamique}{n.m}{Le porcesseur decide à l'éxécution quelles sont les instructions à éxécuter en parallèle}
+
+\entry{Parallelisme statique}{n.m}{Le compiler decide quelles sont les instructions à éxécuter en parallele}
+
 \entry{Partition}{n.m}{Un ensemble de noeud de calcul.}
+
+\entry{PCP}{Acr.}{Pre-Commercial Procurement}
 
 \entry{Peak performance}{n.m}{Capacité de calcul maximale d'un processeur, cette valeur peut être calculée à partir du nombre maximal d'opérations à virgule flottante par cycle d'horloge, de la fréquence et du nombre de cœurs : $ PeakPerf = nOps*freq*ncores $.}
 
@@ -454,11 +463,15 @@ PRACE cherche également à renforcer les utilisateurs européens de calcul inte
   \item La scalabilité d'un code est sa capacité à être efficace lorsque l'on augmente le nombre de cœurs. Un code est scalable lorsqu'il peut utiliser beaucoup de cœurs.
 \end{itemize}}
 
+\entry{Scalabilité faible}{Acr.}{Comment le temps de calcul évolue en fonction du nombre de processeurs pour une taille de problème par fixé pour chaque processeurs.}
+
+\entry{Scalabilité forte}{Acr.}{Comment le temps de calcul évolue avec le nombre de processeurs pour une problème ou la taille total du problème est fixé.}
+
 \entry{SHAPE}{Acr.}{SHAPE, le programme d'adoption du HPC PME en Europe est un programme paneuropéen basé sur PRACE et qui soutient l'adoption du HPC par les PME. Le programme vise à sensibiliser et à doter les PME européennes de l'expertise nécessaire pour tirer parti des possibilités d'innovation offertes par le calcul haute performance (HPC), augmentant ainsi leur compétitivité.}
 
 \entry{SLURM}{Acr.}{Simple Linux Utility for Resource Management.}
 
-\entry{SMT}{Acr.}{Simultaneous Multi Threading}
+\entry{SMT}{Acr.}{Le Simultaneous Multi Threading est le partage d'un coeur de processeur superscalaire (les pipelines, les unités de calcul et les caches) entre plusieurs threads. Les processeurs nonSMT passent alternativement d'un thread à l'autre pour l'exécution des instructions, alors que des processeurs SMT peuvent allouer des unités de calcul à des threads différents simultanément.}
 
 \entry{Snapshot}{n.m}{Le snapshot enregistre les modifications apportées au volume logique cible.}
 

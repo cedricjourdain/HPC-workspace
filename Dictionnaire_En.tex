@@ -146,6 +146,8 @@
 \entry{Deadlock}{n.m}{State in which each member of a group is waiting for some other member to take action, such as sending a message or more commonly releasing a lock. Deadlock is a common problem in multiprocessing systems, parallel computing, and distributed systems, where software and hardware locks are used to handle shared resources and implement process synchronization.
 In an operating system, a deadlock occurs when a process or thread enters a waiting state because a requested system resource is held by another waiting process, which in turn is waiting for another resource held by another waiting process. If a process is unable to change its state indefinitely because the resources requested by it are being used by another waiting process, then the system is said to be in a deadlock}
 
+\entry{Dynamic parallelism}{n.m}{The processor decides at runtime which instructions to execute in parallel}
+
 \entry{DHCP}{Acr.}{Dynamic Host Configuration Protocole.}
 
 \entry{Distributed Memory}{n.m}{In hardware, refers to network based memory access for physical memory that is not common. As a programming model, tasks can only logically "see" local machine memory and must use communications to access memory on other machines where other tasks are executing.}
@@ -221,6 +223,8 @@ In an operating system, a deadlock occurs when a process or thread enters a wait
 
 \entry{Hooking}{n.m}{the term hooking covers a range of techniques used to alter or augment the behavior of an operating system, of applications, or of other software components by intercepting function calls or messages or events passed between software components. Code that handles such intercepted function calls, events or messages is called a hook.}
 
+\entry{HTC}{Acr.}{High-throughput computing (HTC) is a computer science term to describe the use of many computing resources over long periods of time to accomplish a computational task.}
+
 \end{multicols}
 
 %----------------------------------------------------------------------------------------
@@ -235,7 +239,7 @@ In an operating system, a deadlock occurs when a process or thread enters a wait
 
 \entry{Inlining}{n.m}{Manual or compiler optimization that replaces a function call site with the body of the called function. Often the compiler is free to perform inlining itself.}
 
-\entry{Instruction-level parallelism}{n.m}{It's a measure of how many of the instructions in a computer program can be executed simultaneously.}
+\entry{Instruction-level parallelism (ILP)}{n.m}{It's a measure of how many of the instructions in a computer program can be executed simultaneously.}
 
 \entry{ISO}{Acr.}{International Organization for Standardization.}
 
@@ -346,6 +350,8 @@ $ SpeedUpObs =\frac{wall-clock time of a serial execution}{wall-clock time of pa
 
 \entry{OSI model}{n.m}{The Open Systems Interconnection model (OSI model) is a conceptual model that characterizes and standardizes the communication functions of a telecommunication or computing system without regard to its underlying internal structure and technology. Its goal is the interoperability of diverse communication systems with standard protocols. The model partitions a communication system into abstraction layers. The original version of the model defined seven layers.}
 
+\entry{Out-of-order execution}{n.m}{Or more formally dynamic execution; is a paradigm used in most hight -performance central processing units to make use of instruction cycles that would otherwise be wasted. In this paradigme a processor executes instructions in an order governed by availability of input data and execution units,rather than by their original order in programme.}
+
 \entry{Overhead}{n.m}{\begin{enumerate}
   \item Any combination of excess or indirect computation time, memory, bandwidth, or other resources that are required to perform a specific task
 \begin{itemize}
@@ -369,6 +375,8 @@ $ SpeedUpObs =\frac{wall-clock time of a serial execution}{wall-clock time of pa
 \entry{Embarrassingly parallel}{n.m}{Embarrassingly parallel workload or problem (also called perfectly parallel or pleasingly parallel) is one where little or no effort is needed to separate the problem into a number of parallel tasks.[1] This is often the case where there is little or no dependency or need for communication between those parallel tasks, or for results between them.}
 
 \entry{Partition}{n.m}{A set of compute node.}
+
+\entry{PCP}{Acr.}{Pre-Commercial Procurement}
 
 \entry{Peak performance}{n.m}{Maximal computational capacity of a processor, this value can be calculated from the maximum number of floating-point operations per clock cycle, the frequency and the number of cores : $ PeakPerf = nOps*freq*ncores $.}
 
@@ -442,7 +450,7 @@ PRACE also seeks to strengthen the European users of HPC in industry through var
 
 \entry{SLURM}{Acr.}{Simple Linux Utility for Resource Management.}
 
-\entry{SMT}{Acr.}{Simultaneous Multi Threading}
+\entry{SMT}{Acr.}{Simultaneous Multi Threading is a technique to increase the throughput of a conventional superscalar processor by multiplexing the execution of concurrent hardaware threads}
 
 \entry{Snapshot }{n.m}{A file or set of files captured at a particular time, capable of being reloaded to restore the earlier state.}
 
@@ -450,9 +458,14 @@ PRACE also seeks to strengthen the European users of HPC in industry through var
 
 \entry{Stacks}{n.m}{Regions of memory where data is added or removed in a last-in-first-out (LIFO) manner.}
 
+\entry{static parallelism}{n.m}{The compiler decides which instructions to execute in parallel}
+
+
+\entry{Strong scaling}{Acr.}{How the solution time varies with the number of processors for a fixed total problem size.}
+
 \entry{Superscalar processor}{n.m}{CPU that implements a form of parallelism called instruction-level parallelism within a single processor. In contrast to a scalar processor that can execute at most one single instruction per clock cycle, a superscalar processor can execute more than one instruction during a clock cycle by simultaneously dispatching multiple instructions to different execution units on the processor. }
 
-\entry{Switch}{n.m}{ a switch is an electrical component that can "make" or "break" an electrical circuit, interrupting the current or diverting it from one conductor to another.}
+\entry{Switch}{n.m}{A switch is an electrical component that can "make" or "break" an electrical circuit, interrupting the current or diverting it from one conductor to another.}
 
 \entry{Symmetric Multi-Processor}{n.m}{(SMP) Shared memory hardware architecture where multiple processors share a single address space and have equal access to all resources.}
 
