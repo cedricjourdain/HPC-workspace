@@ -59,7 +59,9 @@
 \entry{Accélération observée}{n.m}{(Observed Speedup) L'accélération observée d'un code parallélisé se définit comme suit :
 SpeedUpObs = $\frac{Temps de l'exécution en série}{temps de l'exécution en parallèle} = \frac{wall-clock time of a serial execution}{wall-clock time of parallele execution}$}
 
-\entry{Auto-Vectorization}{n.m}{L'auto-vectorisation est une techique de compilation de langage de programmation, permettant d'adapter automatiquement des boucles de fonction traitant des vecteurs, ou, plus générallement, des matrices, à un processeur vectoriel (SIMD). On appelle plus généralement, le fait d'adapter des traitements des processeurs vectoriels, de façon manuelle ou automatique, une vectorisation.}
+\entry{API}{Acr.}{Une interface de programmation applicative est un ensemble normalisé de classes, de méthodes ou de fonctions qui sert de façade par laquelle un logiciel offre des services à d'autre logiciels. L'objectif est de fournir une porte d'accès à une fonctionnalité en cachant les détails de la mise en oeuvre.}
+
+\entry{Auto-Vectorization}{n.m}{L'auto-vectorisation est une technique de compilation de langage de programmation, permettant d'adapter automatiquement des boucles de fonction traitant des vecteurs, ou, plus généralement, des matrices, à un processeur vectoriel (SIMD). On appelle plus généralement, le fait d'adapter des traitements des processeurs vectoriels, de façon manuelle ou automatique, une vectorisation.}
 
 \entry{AVX}{Acr.}{Advanced Vector Extensions.}
 
@@ -81,7 +83,9 @@ SpeedUpObs = $\frac{Temps de l'exécution en série}{temps de l'exécution en pa
 
 \entry{BIOS}{Acr.}{Basic Input Output System ("syststème élémentaire d'entrée/sortie") est, au sens strict, un ensemble de fonctions, contenu dans la mémoire morte (ROM) de la carte mère d'un ordinateur, lui permettant d'effectuer des opérations de base lors de sa mise sous tension.}
 
-\entry{Binariy releases}{n.m}{Ce sont des fichiers binaires qui ont été créés spécifiquement pour un type d'ordinateur ou d'architecture. Ubuntu prend en charge les architectures x86 (i386 ou i686), AMD64 et PPC. Les paquets / versions bynary corrects seront utilisés automatiquement. Pour trouver celui que vous utilisez, ouvrez un terminal, tapez uname -m.}
+\entry{Binariy releases}{n.m}{Ce sont des fichiers binaires qui ont été créés spécifiquement pour un type d'ordinateur ou d'architecture. Ubuntu prend en charge les architectures x86 (i386 ou i686), AMD64 et PPC. Les paquets / versions binaires corrects seront utilisés automatiquement. Pour trouver celui que vous utilisez, ouvrez un terminal, tapez uname -m.}
+
+\entry{Buffer}{Nom}{En informatique, une mémoire tampon couramment désignée par le terme anglais buffer, est une zone de mémoire vive ou de disque utilisée pour entreposer temporairement des données, notamment entre deux processus ou matériels ne travaillant pas au même rythme.}
 
 \end{multicols}
 
@@ -97,7 +101,7 @@ SpeedUpObs = $\frac{Temps de l'exécution en série}{temps de l'exécution en pa
 
 \entry{CA}{Acr.}{Autorité de Certification.}
 
-\entry{CEF}{Acr.}{CEF est le facteur d'emission de carbon (kgCO2eq/kWh) du site}
+\entry{CEF}{Acr.}{Connecting Europe Facility}
 
 \entry{Chip}{n.m}{Le circuit intégré (CI), aussi appelé puce électronique, est un composant électronique reproduisant une ou plusieurs, fonction(s) électronique(s) plus ou moins complexe(s), intégrant souvent plusieurs type de composant électroniques de base dans un volume réduit (sur une petite plaque), rendant le circuit facile à mettre en oeuvre.}
 
@@ -105,19 +109,19 @@ SpeedUpObs = $\frac{Temps de l'exécution en série}{temps de l'exécution en pa
 
 \entry{Cœur}{n.m}{Désigne le nombre d'unités de traitement central indépendantes sur un composant de calcul (matrice ou puce). = Unité de calcul.}
 
-\entry{Cœur physique}{n.m}{Ensemble de circuits capables d'exécuter des programmes de façon autonome. Toutes les fonctionnalités nécessaires à l'exécution d'un programme sont présente dans ces cœurs :  compteur ordinal, registres, unités de calcul, etc. Des caches sont définis pour chaque processeur ou partagés entre eux.}
+\entry{Cœur physique}{n.m}{Ensemble de circuits capables d'exécuter des programmes de façon autonome. Toutes les fonctionnalités nécessaires à l'exécution d'un programme sont présente dans ces cœurs : compteur ordinal, registres, unités de calcul, etc. Des caches sont définis pour chaque processeur ou partagés entre eux.}
 
-\entry{cœur de processeur logique}{n.m}{Un cœur de processeur logique est ce que le système d'exploitation considère comme un cœur de processeur. Avec l'hyperthreading activé, le nombre de cœurs logiques est un multiple du nombre de cœurs physiques.}
+\entry{Cœur de processeur logique}{n.m}{Un cœur de processeur logique est ce que le système d'exploitation considère comme un cœur de processeur. Avec l'hyperthreading activé, le nombre de cœurs logiques est un multiple du nombre de cœurs physiques.}
 
 \entry{Communication}{n.m}{Les tâches parallèles doivent généralement échanger des données. Il existe plusieurs façon pour cela, via un bus mémoire partagé ou sur un réseau, mais l'événement réel de l'échange de données est communément appelé communication indépendamment de la méthode utilisée.}
 
-\entry{Core dump}{n.m}{Un core dump est une copie de la mémoire vive et des registres d'un processeur, permettant d'avoir un instantané de l'état d'un système. Il sert généralement à des fins d'analyse, suite à une exception, forcée ou provoquée par une erreur1.}
+\entry{Core dump}{n.m}{Un core dump est une copie de la mémoire vive et des registres d'un processeur, permettant d'avoir un instantané de l'état d'un système. Il sert généralement à des fins d'analyse, suite à une exception, forcée ou provoquée par une erreur.}
 
 \entry{CPU}{Acr.}{Central processing Unit (Processeur).}
 
 \entry{CPU/Socket/Processor/Core}{n.m}{Auparavant, un CPU était un composant d'exécution unique pour un ordinateur. Ensuite, plusieurs CPU ont été incorporées dans un noeud. Puis, les CPU individuelles ont été subdivisées en plusieurs "core"/"noyau", chacun étant une unité d'exécution unique. Les CPU avec plusieurs core/noyaux sont appelés "sockets" - dépendants du fournisseur. Le résultat est un nœud avec plusieurs CPU, chacune contenant plusieurs cores/noyau.}
 
-\entry{CPU-bound}{Adj.}{En informatique, CPU bound (ou compute bound) est l'état d'un ordinateur lorsque le temps requis pour effectuer une tâche est déterminé principalement par la vitesse de son processeur. Le terme français pour CPU bound est subordonné au temps de calcul1, mais ce terme est peu utilisé et les informaticiens utilisent presque toujours le terme CPU bound. Lorsqu'un ordinateur est CPU bound, cela implique que l'augmentation de la puissance du processeur ou l'optimisation du code source du programme exécuté améliorera les performances globales de l'ordinateur.}
+\entry{CPU-bound}{Adj.}{En informatique, CPU bound (ou compute bound) est l'état d'un ordinateur lorsque le temps requis pour effectuer une tâche est déterminé principalement par la vitesse de son processeur. Le terme français pour CPU bound est subordonné au temps de calcul, mais ce terme est peu utilisé et les informaticiens utilisent presque toujours le terme CPU bound. Lorsqu'un ordinateur est CPU bound, cela implique que l'augmentation de la puissance du processeur ou l'optimisation du code source du programme exécuté améliorera les performances globales de l'ordinateur.}
 
 \entry{CPU peak performance}{n.m}{fréquence x Nombre d'operation par cycle CPU.}
 
@@ -222,7 +226,7 @@ SpeedUpObs = $\frac{Temps de l'exécution en série}{temps de l'exécution en pa
 
 \entry{Intensité arithmetique}{n.m}{Nous considérons plus que des choses lié au calcul: nous ajoutons les accès/opérations mémoire: $ AI = \frac{flops}{memops}$. Plus l'IA est élevée, plus le code est limité par le CPU; plus l'IA est basse, plus le code est limité par la RAM.}
 
-\entry{Intensité Opérationelle}{n.m}{intensité Opérationelle est légèrement différente de l'intensité arithmétique car elle dépend aussi de la taille des données $ OI = \frac{flops}{memops*sizeOfData} = \frac{AI}{sizeOfData}$, sizeOfData dépend du type de données que nous utilisons dans notre code, int et float sont codé sur 4 octets, double est codé sur 8 octets. Comme l'intensité arithmétique: plus l'intensité opérationelle est élevé plus le code est limité par le CPU; et plus l'intensité opérationelle est basse, plus le code est limité par la RAM.}
+\entry{Intensité Opérationelle}{n.m}{intensité Opérationnelle est légèrement différente de l'intensité arithmétique car elle dépend aussi de la taille des données $ OI = \frac{flops}{memops*sizeOfData} = \frac{AI}{sizeOfData}$, sizeOfData dépend du type de données que nous utilisons dans notre code, int et float sont codé sur 4 octets, double est codé sur 8 octets. Comme l'intensité arithmétique: plus l'intensité opérationnelle est élevé plus le code est limité par le CPU; et plus l'intensité opérationnelle est basse, plus le code est limité par la RAM.}
 
 \entry{ISO}{Acr.}{International Organization for Standardization.}
 
@@ -238,8 +242,8 @@ SpeedUpObs = $\frac{Temps de l'exécution en série}{temps de l'exécution en pa
 
 \entry{Kernel }{n.m}{
 \begin{itemize}
-  \item Système d'exploitation : Un kernel de système d'exploitation, est une des parties fondamentales de certains systèmes d'exploitation. Il gère les ressources de l'ordinateur et permet aux différents composants - matériels et logiciels - de communiquer entre eux. Le kernel fournit des mécanismes d'abstraction du matériel, notamment de la mémoire, du ou des processeurs, et des échanges d'informations entre logiciels et périphériques matériels. Le kernel autorise diverse abstractions logicielles et facilitte la communication entre le processus. 
-  \item Compute Kernel : Un kernel de calcul est une routine compilée pour les accélerateurs à haut débit (tels que les GPUs), les DSP ou les FPGA, séparés du (mais utilisé par) le programme principal (main).
+  \item Système d'exploitation : Un kernel de système d'exploitation, est une des parties fondamentales de certains systèmes d'exploitation. Il gère les ressources de l'ordinateur et permet aux différents composants - matériels et logiciels - de communiquer entre eux. Le kernel fournit des mécanismes d'abstraction du matériel, notamment de la mémoire, du ou des processeurs, et des échanges d'informations entre logiciels et périphériques matériels. Le kernel autorise diverse abstractions logicielles et facilite la communication entre le processus. 
+  \item Compute Kernel : Un kernel de calcul est une routine compilée pour les accélérateurs à haut débit (tels que les GPUs), les DSP ou les FPGA, séparés du (mais utilisé par) le programme principal (main).
 \end{itemize}}
 
 \end{multicols}
@@ -279,13 +283,13 @@ Accès rapide aux données, mais capacité limitée.
   \item Cache L2 et L3 (ou LLC): données.
 \end{itemize}}
 
-\entry{Mémoire Partagées}{n.m}{D'un point de vue strictement hardware, on décrit une architecture informatique ou tous les processeurs ont un accès direct (habituellement basé sur le bus) à une mémoire commune. Au sens de la programmation, il se décrit par un modèle dans lequel les tâches parallèles ont toutes la même "image" de mémoire et peuvent directement aborder et accéder aux mêmes emplacements de mémoire logique quel que soit l'endroit où la mémorie physique existe réellement.}
+\entry{Mémoire partagée}{n.m}{D'un point de vue strictement hardware, on décrit une architecture informatique ou tous les processeurs ont un accès direct (habituellement basé sur le bus) à une mémoire commune. Au sens de la programmation, elle se décrit par un modèle dans lequel les tâches parallèles ont toutes la même "image" de mémoire et peuvent directement aborder et accéder aux mêmes emplacements de mémoire logique quel que soit l'endroit où la mémoire physique existe réellement.}
 
-\entry{Mémoire morte}{n.m}{Originalement, mémoire informatique non volatile (ROM: Read-Only Memory).}
+\entry{Mémoire morte}{n.m}{Originellement, mémoire informatique non volatile (ROM: Read-Only Memory).}
 
-\entry{memory bound}{Adj.}{\begin{itemize}
-  \item En informatique, memory bound est l'état d'un ordinateur lorsqaue le tems nécessaire pour exécuter un programme est principalement déterminer par la vitesse ou la quantité de mémoire RAM disponible pour stocket les données.
-  \item Une fonction memory bound est une fonction qui place l'ordinateur dans un état memory bound
+\entry{Memory bound}{Adj.}{\begin{itemize}
+  \item En informatique, memory bound est l'état d'un ordinateur lorsque le temps nécessaire pour exécuter un programme est principalement déterminer par la vitesse ou la quantité de mémoire RAM disponible pour stocker les données.
+  \item Une fonction memory bound est une fonction qui place l'ordinateur dans un état memory bound.
 \end{itemize}}
 
 \entry{Modèle OSI}{n.m}{Open Systems Interconnection est un standard de communication, en réseau, de tous les systèmes informatiques. Caractérisation résumée des couches :
@@ -312,12 +316,12 @@ Accès rapide aux données, mais capacité limitée.
 
 \begin{multicols}{2}
 
-\entry{Nœuds}{n.m}{Le bloc de construction de base d'un cluster Linux est le nœud. Un nœud est essentiellement un ordinateur indépendant. Principales caractéristiques: autonome, sans disque, ordinateur multi-coeur. Faible facteur de forme - Les nœuds de cluster sont très fins afin d'économiser de l'espace. Rack Mounted - Les nœuds sont montés de manière compacte dans une armoire pour faciliter la maintenance, réduire l'encombrement ... Gestion à distance - Il n'y a pas de clavier, souris, moniteur ou autre périphérique généralement utilisé pour interagir avec un ordinateur. Toute la gestion des noeuds se fait sur le réseau à partir d'un noeud "gestion".
-Les nœuds sont généralement configurés en 4 types, selon leur fonction :
+\entry{Nœuds}{n.m}{Le bloc de construction de base d'un cluster Linux est le nœud. Un nœud est essentiellement un ordinateur indépendant. Principales caractéristiques: autonome, sans disque, ordinateur multi-coeur. Faible facteur de forme - Les nœuds de cluster sont très fins afin d'économiser de l'espace. Rack Mounted - Les nœuds sont montés de manière compacte dans une armoire pour faciliter la maintenance, réduire l'encombrement ... Gestion à distance - Il n'y a pas de clavier, souris, moniteur ou autre périphérique généralement utilisé pour interagir avec un ordinateur. Toute la gestion des nœuds se fait sur le réseau à partir d'un nœud "gestion".
+Les nœuds sont généralement configurés en quatre types, selon leur fonction :
 \begin{itemize}
-  \item Compute nodes - Noeuds qui exécutent des tâches utilisateur. La majorité des nœuds dans un cluster. Ils sont généralement divisés en deux partitions: batch ou interactive / debug, 
-  \item Nœuds de connexion - un ou plusieurs par cluster. C'est ici que vous vous connectez pour accéder aux nœuds de calcul. Les noeuds de connexion sont également utilisés pour construire vos applications et contrôler le travail de cluster,
-  \item Noeuds de passerelle (E / S) - Ces noeuds sont des serveurs de fichiers dédiés. Ils connectent les nœuds de calcul aux systèmes de fichiers essentiels montés sur des périphériques de stockage sur disque, tels que les OST Lustre. Le nombre de ces nœuds varie selon le cluster,
+  \item Compute nodes - nœuds qui exécutent des tâches utilisateur. La majorité des nœuds dans un cluster. Ils sont généralement divisés en deux partitions: batch ou interactive / debug, 
+  \item Nœuds de connexion - un ou plusieurs par cluster. C'est ici que vous vous connectez pour accéder aux nœuds de calcul. Les nœuds de connexion sont également utilisés pour construire vos applications et contrôler le travail de cluster,
+  \item Nœuds de passerelle (E / S) - Ces nœuds sont des serveurs de fichiers dédiés. Ils connectent les nœuds de calcul aux systèmes de fichiers essentiels montés sur des périphériques de stockage sur disque, tels que les OST Lustre. Le nombre de ces nœuds varie selon le cluster,
   \item Nœuds administratifs/de gestion: utilisés par les administrateurs système pour gérer le cluster entier. Non accessible aux utilisateurs.
 \end{itemize}}
 
@@ -327,7 +331,7 @@ Les nœuds sont généralement configurés en 4 types, selon leur fonction :
   \item Un"ordinateur autonome" dans une boite". Généralement composé de plusieurs CPU/Processeurs noyaux, de mémoire, d'interface réseaux, ec.. 
 \end{itemize} Les nœuds sont regroupés en réseau pour constituer un supercalculateur.}
 
-\entry{Nœuds partagés}{n.m}{Plusieurs jobs peuvent tourner de façon simultané dans un noeud.}
+\entry{Nœuds partagés}{n.m}{Plusieurs jobs peuvent tourner de façon simultané dans un nœud.}
 
 \entry{NUMA}{Acr.}{Non-Uniform Memory Access signifiant respectivement accès mémoire non uniforme. Un système NUMA est un système multiprocesseur dans lequel les zones mémoires sont séparées et placées en différents endroits. Vis-à-vis de chaque processeur, les temps d'accès diffèrent donc suivant la zone mémoire accédée.}
 
@@ -363,7 +367,7 @@ Les nœuds sont généralement configurés en 4 types, selon leur fonction :
   \item Protocol overhead : bande passante supplémentaire utilisée par un protocole de communication,
   \item Encoding overhead : bande passante supplémentaire requise pour la transmission de ligne physique.
 \end{itemize}
-  \item Parall overhead : Frais généraux parallèle : Le temps nécessaire pour coordonner les tâches paralèlles, en opposition à un travail utile. Les paralleles overhead peuvent inclure des facteurs tels que : le temps de démarage de la tâche, la synchronisation, communications des données, les frais généraux imposés par les langages parallèles, bibliothèques, systèmes d'exploitations, etc et le temps de fin de tâche.
+  \item Parall overhead : Frais généraux parallèle : Le temps nécessaire pour coordonner les tâches parallèles, en opposition à un travail utile. Les parallèles overhead peuvent inclure des facteurs tels que : le temps de démarrage de la tâche, la synchronisation, communications des données, les frais généraux imposés par les langages parallèles, bibliothèques, systèmes d'exploitations, etc et le temps de fin de tâche.
 \end{enumerate}}
 
 \end{multicols}
@@ -378,11 +382,11 @@ Les nœuds sont généralement configurés en 4 types, selon leur fonction :
 
 \entry{Parallèlement embarrassant}{n.m}{Résoudre simultanément plusieurs tâches similaires mais indépendantes; peu ou pas pas besoin de coordination entre les tâches.}
 
-\entry{Parallelisme dynamique}{n.m}{Le porcesseur decide à l'éxécution quelles sont les instructions à éxécuter en parallèle}
+\entry{Parallélisme dynamique}{n.m}{Le processeur décide à l’exécution quelles sont les instructions à exécuter en parallèle}
 
-\entry{Parallelisme statique}{n.m}{Le compiler decide quelles sont les instructions à éxécuter en parallele}
+\entry{Parallélisme statique}{n.m}{Le compiler décide quelles sont les instructions à exécuter en parallèle}
 
-\entry{Partition}{n.m}{Un ensemble de noeud de calcul.}
+\entry{Partition}{n.m}{Un ensemble de nœud de calcul.}
 
 \entry{PCP}{Acr.}{Pre-Commercial Procurement}
 
@@ -390,14 +394,11 @@ Les nœuds sont généralement configurés en 4 types, selon leur fonction :
 
 \entry{PDU}{Acr.}{Protocol Data Unit.}
 
-\entry{Pipelining}{n.m}{Diviser une tâche en étapes effectuées par différentes unités de processeur, avec des entrées diffusées , comme une chaine de montage; un type de calcul parallèle.}
+\entry{Pipelining}{n.m}{Diviser une tâche en étapes effectuées par différentes unités de processeur, avec des entrées diffusées , comme une chaîne de montage; un type de calcul parallèle.}
 
-\entry{PM}{Acr.}{Person Months. Un «Person Month» est la mesure utilisée pour exprimer l'effort (la quantité de temps) que les chercheurs principaux (IP), les professeurs et les autres cadres supérieurs consacrent à un projet particulier. L'effort est basé sur le type de nomination de l'individu avec l'organisation; par exemple, année civile (CY), année académique (AY) et / ou terme d'été (SM); et de la définition de l'organisation.}
+\entry{PM}{Acr.}{Person Months. Un «Person Month» est la mesure utilisée pour exprimer l'effort (la quantité de temps) que les principaux investigateurs (PI), les professeurs et les autres cadres supérieurs consacrent à un projet particulier. L'effort est basé sur le type de nomination de l'individu avec l'organisation; par exemple, année civile (CY), année académique (AY) et / ou terme d'été (SM); et de la définition de l'organisation.}
 
-\entry{PRACE}{Acr.}{La mission de PRACE (Partenariat pour l'informatique de pointe en Europe) est de permettre une recherche scientifique et une recherche-développement à fort impact dans toutes les disciplines afin de renforcer la compétitivité européenne au profit de la société. PRACE cherche à réaliser cette mission en offrant des ressources et des services de classe mondiale en informatique et en gestion des données grâce à un processus d'évaluation par les pairs.
-
-PRACE cherche également à renforcer les utilisateurs européens de calcul intensif dans l'industrie à travers diverses initiatives. PRACE a un fort intérêt à améliorer l'efficacité énergétique des systèmes informatiques et à réduire leur impact sur l'environnement.}
-
+\entry{PRACE}{Acr.}{La mission de PRACE (Partenariat pour l'informatique de pointe en Europe) est de permettre une recherche scientifique et une recherche-développement à fort impact dans toutes les disciplines afin de renforcer la compétitivité européenne au profit de la société. PRACE cherche à réaliser cette mission en offrant des ressources et des services de classe mondiale en informatique et en gestion des données grâce à un processus d'évaluation par les pairs. PRACE cherche également à renforcer les utilisateurs européens de calcul intensif dans l'industrie à travers diverses initiatives. PRACE a un fort intérêt à améliorer l'efficacité énergétique des systèmes informatiques et à réduire leur impact sur l'environnement.}
 
 \entry{Processeur/CPU}{n.m}{Unité Arithmétique Logique (UAL); Registre (stocke les opérandes et résultats intermédiaires de calcul et les informations sur l'état du calcul); Mémoire cache L1-L2 et L3 (accès rapide aux données, mais capacité limité).}
 
@@ -445,8 +446,11 @@ PRACE cherche également à renforcer les utilisateurs européens de calcul inte
 
 \entry{Réseau}{n.m}{Caractérisé par : sa bande passante (en Gbits/s, uni ou bi-directionnel), sa latence (temps en s de la transmission d'une donnée, sa topologie (arborescence du réseau entre les noeuds ou racks (ex:fat tree, tore 3d, hypercube).}
 
+\entry{RCM}{Acr.}{Remote Connection Manager est une application python cross platform développée par CINECA qui simplifie et automatise les étapes nécessaires à l'établissement d'une connexion VNC vers les nœuds de visualisation (soumission des travaux pour le démarrage du serveur VNC, tunneling ssh, connexion client vnc) et sa gestion (reconnexion, liste,fermer). Il rend automatique toutes les étapes nécessaires pour créer, connecter et tuer l'affichage à distance.}
+
 \entry{RPM}{Acr.}{Ou RPM Package Manager (Red Hat Package Manager), ou plus simplement RPM, est un système de gestion de paquets de logiciels utilisé sur certaines distributions GNU/Linux.}
 
+\entry{RSS}{Acr.}{Resident Set Size (RSS)  est la partie de la mémoire occupée par un processus contenu dans la RAM.}
 \end{multicols}
 
 %----------------------------------------------------------------------------------------
@@ -476,9 +480,9 @@ PRACE cherche également à renforcer les utilisateurs européens de calcul inte
 \entry{Snapshot}{n.m}{Le snapshot enregistre les modifications apportées au volume logique cible.}
 
 \entry{Socket }{n.m}{\begin{itemize}
-  \item Connecteur utilisé pour interfacer un processus avec une carte mère. Physical connector on a motherboard that accepts a single physical chip. On compute node there 2 sockets
+  \item Connecteur utilisé pour interfacer un processus avec une carte mère. Connecteur physique sur une carte mère qui accepte une seule puce physique.
   \item Groupe de CPU et ils représentent un processeur.
-  \item Receptacle on the motherboard for one physically packaged processor (each of which can contain one or more cores)
+  \item Emplacement sur la carte mère pour un processeur physiquement packagé (chacun d'eux pouvant contenir un ou plusieurs noyaux)
 \end{itemize}}
 
 \entry{Stacks}{n.m}{Ou Pile en français est une structure de données fondée sur le principe LIFO "Last In Last Out", ce qui veut dire, qu'en général, le dernier élément ajouté à la pile sera le premier à en sortir. }
@@ -488,6 +492,8 @@ PRACE cherche également à renforcer les utilisateurs européens de calcul inte
 \entry{Symmetric Multi-Processor}{n.m}{(SMP) Architecture matérielle de mémoire partagée dans laquelle plusieurs processeurs partagent un même espace d'adressage et ont un accès égal à toutes les ressources.}
 
 \entry{Synchronisation }{n.m}{La coordination des tâches parallèles en temps réel, très souvent associée aux communications. Souvent implémenté en établissant un point de synchroniation dans une application où une tache ne peut plus aller plus loin tant qu'une autre tâche atteigne le même point logiquement équivalent. La synchronisation implique généralement l'attente d'au moins une tâche, et peut donc provoquer l'augmentation du temps d'exécution de l'horloge murale d'une application parallèle.}
+
+\entry{Stack}{n.m}{Une stack ou pile est une structure de données fondée sur le principe "dernier arrivé, premier sorti), ce qui veut dire, qu'en général, le dernier élément, ajouté à la pile sera le premier à en sortir.}
 
 \end{multicols}
 
@@ -513,7 +519,7 @@ PRACE cherche également à renforcer les utilisateurs européens de calcul inte
   \item Un thread, ou thread d'exécution, désigne la séquence ordonnée de base comprenant les instructions logicielles qui peuvent être transmises à un cœur de processeur ou être traitées par celui-ci.
 \end{itemize}}
 
-\entry{Trame}{n.m}{Dans les réseaus informatiques, une trame est le PDU de la couche 2 (liaison de données) dans le modèle OSI.}
+\entry{Trame}{n.m}{Dans les réseaux informatiques, une trame est le PDU de la couche 2 (liaison de données) dans le modèle OSI.}
 
 \entry{TTY}{Acr.}{TeleTypeWriter : Commande Unix qui affiche sur la sortie standard le nom du fichier connecté sur l'entrée standard.}
 
