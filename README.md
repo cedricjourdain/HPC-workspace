@@ -1,5 +1,3 @@
-# Dictionnary for HPC
+# HPC-workspace
 
-This repo is used to define technical terms of the HPC (Hight Performance Computer)
-
-On Cines computer this repo can be found here : ~/Documents/Workspace/Latex/Dictionnaire
+All work and mini-projects related to the HPC domain will be aggregated in this repository
